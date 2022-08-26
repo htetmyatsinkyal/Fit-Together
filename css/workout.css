@@ -1,0 +1,205 @@
+body{
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+#marquee{
+    background-color: #99ABDA;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px; 
+    animation: color 4s infinite;
+    height:250px;
+    width:97%; 
+
+}
+@media (max-width: 900px) {
+    #marquee {
+        height:150px;
+        width:90%; 
+
+    }
+  }
+  marquee img{
+    width: auto;
+    height: 250px;
+    border-radius: 10px;
+}
+@media (max-width: 900px) {
+    marquee img {
+        height:150px;
+    }
+  }
+@keyframes color {
+    0%   {background-color: #99ABDA;}
+    25%  {background-color: #86BE6C;}
+    50%  {background-color: #326d94;}
+    70%  {background-color: #CD6390;}
+    100% {background-color: #CD7663;}
+  }
+
+nav{
+  
+    padding: 20px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+ 
+}
+@media (max-width: 900px) {
+    nav{
+        top: 10px;
+        padding-left: 10px;
+
+    }
+  }
+nav a{
+    padding: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black ;
+    font-weight: bold;
+}
+@media (max-width: 900px) {
+    nav a{
+        padding: 20px;
+        font-size: 15px;
+
+    }
+  }
+#workoutdiv{
+
+    width: 910px;
+    background-color: #7084C9;
+    position: absolute;
+    top: 40%;
+    left: 220px;
+    padding: 5px;
+    border-radius: 10px;
+}
+@media (max-width: 900px) {
+    #workoutdiv {
+    width: 70%;
+        height: 40px;
+          position: absolute;
+            top: 20%;
+            left:50px;
+            overflow: auto;
+          white-space: nowrap;
+          display: inline-block;
+          border-radius: 20px;
+
+            
+    }
+  }
+
+#workoutdiv a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 20px;
+   
+}
+@media (max-width: 900px) {
+    #workoutdiv a{
+        font-size: 10px;
+    }
+  }
+#workoutdiv a:hover{
+    background-color: #8EA1E0;
+    border-radius: 10px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+#homeheader{
+    color: wheat;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 100px;
+    padding-left: 70px;
+}
+@media (max-width:900px){
+    #homeheader{
+        padding-left:20px ;
+        font-size: 10px;
+        margin-top: 50px;
+
+    }
+}
+main{
+    width: 1330px;
+    height: 860px;
+    
+}
+@media (max-width:900px){
+    main{
+        width: 95%;
+        height: auto;
+    
+    }
+}
+
+.column1,.column2,.column3,.column4{
+    background-color: #849AD6;
+    float: left;
+    width: 250px;
+    height: auto;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+@media (max-width:900px){
+    .column1,.column2,.column3,.column4{
+        margin: 5px;
+        width: 140px;
+        height: 250px;
+      
+    }
+}
+iframe{
+    width: 250px;
+}
+@media (max-width:900px){
+    iframe{
+        width: 150px;
+      
+    }
+}
+.column1:hover,.column2:hover,.column3:hover,.column4:hover{
+    background-color: #906CBE;
+}
+.container{
+    margin-left: 3%;
+}
+@media (max-width:900px){
+    .container{
+        margin-left: 10px;
+    }
+}
+main iframe{
+    border-radius: 10px;
+}
+.container p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+@media (max-width:900px){
+    .container p{
+        font-size: 10px;
+    }
+}
+
+i{
+    padding-right: 5px;
+   
+}

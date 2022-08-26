@@ -1,0 +1,98 @@
+body{
+    background-image: url("../images/fit.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+background-position: center;
+
+}
+
+#signupheader{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0px 50px 40px;
+}
+#name,#email,#password,#gender{
+    color: white;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    display: block;
+}
+input[type=text],input[type=email],input[type=password]{
+    background-color: #2AB7C0;
+    width: 280px;
+    height: 65px;
+    border-radius: 22px;
+    padding: 20px;
+    margin-left: 40px;
+     margin-bottom: 10px;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+   border: none;
+    
+}
+input[type=radio]{
+  margin-left: 40px;
+  margin-right: 20px;
+}
+#female {
+  background-color: white; 
+  color: black; 
+  border-radius:22px ;
+ padding: 15px 20px;
+ margin-top: 40px;
+ margin-bottom: 50px;
+}
+#female:hover {
+  background-color: #FFACAC;
+  color: white;
+}
+#male {
+  background-color: white; 
+  color: black; 
+  border-radius:22px ;
+  padding: 15px 25px;
+  margin-bottom: 50px;
+}
+
+#male:hover {
+  background-color: #0094FF;
+  color: white;
+}
+#others {
+  background-color: white; 
+  color: black; 
+  border-radius:22px ;
+  padding: 15px 20px;
+ 
+}
+
+#others:hover {
+  background-color: #FFDE68;
+  color: white;
+}
+
+input[type=submit]{
+    width: 300px;
+    height: 65px;
+      background-color: #7F7DE9;
+      display: block;
+      font-size: 25px;
+      color: white;
+      border-radius: 22px;
+     text-align: center;
+      margin: 70px 0px 0px 40px;
+      border-color: #7F7DE9;
+  }
+  #footersignin{
+    margin-left: 45px;
+  }
+  @media (max-width: 900px) {
+    #footersignin {
+      margin-left: 48px;
+            
+    }
+  }

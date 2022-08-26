@@ -1,0 +1,38 @@
+<!DOCTYPE >
+<html>
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Page</title>
+        <link rel="stylesheet" href="../css/signuppage.css">
+    </head>
+    <body>
+      <div id="container">
+        <p id="signupheader">Sign Up</p>
+        <form action="workout.html">
+        <label id="name" for="name">Name</label>
+        <input type="text" name="name" placeholder="Enter Your Name" required>
+      
+        <label id="email" for="email">Email</label>
+        <input type="email" name="email" pattern="[^ @]*@[^ @]*" placeholder="Enter Your Email" required>
+
+        <label id="password" for="password">Password</label>
+        <input type="password" name="password" value="password" minlength="7" placeholder="Enter Your Password" required>
+
+        <label id="gender" for="gender">Gender</label>
+       <input type="radio" id="female" name="female" value="female">
+        <label id="female" for="female">Female</label>
+        <br>
+       <input type="radio" id="male" name="male" value="male">
+       <label id="male" for="male">Male</label>
+       <br>
+       <input type="radio" id="other" name="other" value="other">
+       <label id="others" for="other">Others</label>
+        
+
+          <input type="submit" value="Sign Up">
+    </form>
+        <a id="footersignin" href="signin.html">If you have already account please Sign In.</a>
+        </div>
+    </body>
+</html>

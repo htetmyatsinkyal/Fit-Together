@@ -1,0 +1,47 @@
+body{
+    background-color:#001857 ;
+}
+#logoutdiv{
+    background-color: #819CD0;
+    color: white;
+    font-size: 40px;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top: 150px;
+    padding-top: 100px;
+    border-radius: 30px;
+}
+@media (max-width:900px){
+    #logoutdiv{
+        width: 350px;
+        font-size: 20px;
+        height: 200px;
+        
+    }
+}
+p{
+    padding-bottom: 30px;
+}
+button{
+    padding: 10px 50px;
+   border-radius: 10px;
+   font-size: 20px;
+}
+@media (max-width:900px){
+    button{
+        font-size: 15px;
+      
+    }
+}
+#button1{
+    background-color: #EAD2C8;
+}
+#button2{
+   background-color: #5886A7;
+color: white;
+}
+form{
+    display: inline;
+}

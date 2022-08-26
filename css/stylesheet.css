@@ -1,0 +1,51 @@
+body{
+    background-image: url("../images/fitness.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+ 
+}
+#header{
+font-size: 44px;
+margin: 200px 700px 0px 10px;
+font-weight: bold;
+}
+@media (max-width: 900px) {
+    #header {
+        font-size: 30px;
+        margin: 250px 100px 0px 10px;
+        font-weight: bold;
+
+            
+    }
+  }
+#header2{
+    font-size: 20px;
+    margin-left:10px ;
+    color: #FFBDBD;
+}
+#signup{
+    background-color: #EB6A6A;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left:10px ;
+    font-size: 20px;
+    width: 110px;
+    font-weight: bold;
+    
+}
+form{
+    display: inline;
+}
+#guest{
+    background-color: #B19CCB;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left:10px ;
+    font-size: 20px;
+ 
+}

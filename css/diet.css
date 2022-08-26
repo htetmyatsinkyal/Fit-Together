@@ -1,0 +1,162 @@
+body{
+   background-image: url("../images/food.jpg");
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+}
+
+nav{
+  
+    padding: 20px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    width: 40%;
+  
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black ;
+    padding: 10px;
+    font-weight: bold;
+
+} 
+@media (max-width:900px){
+    nav a{
+        font-size: 20px;
+    }
+}
+nav a:hover{
+    color: #27AC94;
+}
+#water{
+    color: #349CC9;
+  
+}
+#remind{
+    background-color: #EE8C62;
+    border-radius: 22px;
+    width: 20%;
+   padding: 20px;
+   margin: 40px;
+  position: relative;
+  left: 220px;
+
+ 
+}
+@media (max-width:900px){
+    #remind{
+
+        margin-left: 10px;
+        margin-bottom: 20px;
+        left:0px;
+        width: 220px;
+        font-size: 13px;
+    }
+}
+#wdr{
+    font-size: 20px;
+    font-weight: bold;
+}
+@media (max-width:900px){
+    #wdr{
+        font-size: 15px;
+    }
+}
+th{
+    font-weight: bold;
+
+}
+
+table {
+    width: 61%;
+    margin: auto;
+
+    background-color: #1D2F6B;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+  }
+  @media (max-width:900px){
+    table{
+       font-size: 15px;
+       width: 100%;
+    }
+}
+  table, td, th {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+.column1,.column2{
+    background-color: #1D2F6B;
+    float: left;
+    width: 500px;
+    height: auto;
+    border-radius: 22px;
+    padding: 10px;
+    color: white;
+    font-size:15px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+  }
+  @media (max-width:900px){
+    .column1,.column2{
+        float: none;
+        margin-left: 5px;
+        padding: 5px;
+        width: 370px;
+    }
+}
+  #food {
+      color: black;
+      font-size: 20px;
+    text-align: center;
+    
+  }
+  @media (max-width:900px){
+    #food {
+        font-size: 15px;
+    }
+}
+  #carbonhydrate,#protein{
+      font-weight: bold;
+      font-size: 22px;
+  }
+  @media (max-width:900px){
+    #carbonhydrate,#protein {
+        font-size: 18px;
+    }
+}
+#calweb{
+      text-decoration: none;
+      font-size: 15px;
+      color: white;
+    
+  
+  }
+footer{
+    width: 1340px;
+    height: 300px;
+
+}
+@media (max-width:900px){
+    footer{
+        width: 250px;
+        height: 300px;
+     
+    }
+}
+footer p{
+    padding-left: 40px;
+}
+@media (max-width:900px){
+    footer p{
+        padding-left: 10px;
+        font-size: 13px;
+    }
+}

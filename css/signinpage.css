@@ -1,0 +1,87 @@
+body {
+  background-image: url("../images/gym.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#signinheader {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px 0px 50px 40px;
+}
+
+#name,
+#password {
+  color: white;
+  font-size: 25px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  display: block;
+}
+input[type="text"],
+input[type="password"] {
+  background-color: #2ab7c0;
+  width: 400px;
+  height: 30px;
+  border-radius: 22px;
+  padding: 20px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+@media (max-width: 900px) {
+  input[type="text"],
+  input[type="password"] {
+    width: 250px;
+    height: 20px;
+    font-size: 15px;
+  }
+}
+#signindiv {
+  width: 700px;
+  height: 500px;
+  margin: auto;
+  margin-top: 60px;
+  margin-left: 400px;
+}
+@media (max-width: 900px) {
+  #signindiv {
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 0px;
+  }
+}
+#signinbutton {
+  width: 300px;
+  height: 65px;
+  background-color: #7f7de9;
+  display: block;
+  font-size: 25px;
+  color: white;
+  border-radius: 22px;
+  text-align: center;
+  margin: 70px 0px 0px 90px;
+  border-color: #7f7de9;
+}
+@media (max-width: 900px) {
+  #signinbutton {
+    width: 230px;
+    height: 50px;
+    font-size: 20px;
+    margin: 65px;
+  }
+}
+i {
+  font-size: 40px;
+  padding: 20px;
+  color: black;
+}
+i:hover {
+  color: white;
+}
